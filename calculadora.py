@@ -12,5 +12,13 @@ def divisao(a,b):
         raise ValueError("Divisão por zero!")
     return a/b
 
+<<<<<<< HEAD
 def potenicia(base, expoente):
     return base ** expoente
+=======
+def potencia(base, expoente):
+    resultado = 1
+    for _ in range(expoente):
+        resultado *= base
+    return resultado
+>>>>>>> feature-potencia-loop
