@@ -11,3 +11,6 @@ def divisao(a,b):
     if b== 0:
         raise ValueError("Divisão por zero!")
     return a/b
+
+def potenicia(base, expoente):
+    return base ** expoente
